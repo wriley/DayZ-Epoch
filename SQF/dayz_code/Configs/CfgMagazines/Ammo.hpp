@@ -154,3 +154,57 @@ class WoodenArrow : CA_Magazine {
 		};
 	};
 };
+
+class CZ550_Ammo_Box: CA_Magazine {
+	scope = 2;
+	count = 20;
+	displayName = "CZ550 ammo box";
+	model = "\dayz_epoch_b\models\cz550_ammo_box.p3d";
+	picture = "\dayz_epoch_b\textures\cz550_ammo_box_prev.paa";
+	descriptionShort = "CZ550 ammo box, 20 rounds";
+	
+	class ItemActions {
+		class ReloadMag {
+			text="Remove 20 rounds from box";
+			script="spawn player_reloadMag;";
+			use[]= {
+				"CZ550_Ammo_Box"
+			};
+			output[]= {
+				"5x_22_LR_17_HMR",
+				"5x_22_LR_17_HMR",
+				"5x_22_LR_17_HMR",
+				"5x_22_LR_17_HMR"
+			};
+		};
+	};
+};
+
+class 5x_22_LR_17_HMR : CA_Magazine {
+	scope = 2;
+	displayName = "CZ 550 Magazine";
+	picture = "\Ca\weapons\Data\Equip\m_M24_CA.paa";
+	model = "\dayz_equip\models\mag5rnd.p3d";
+	count = 5;
+	ammo = "B_762x51_noTracer";
+	initSpeed = 870;
+	sound[] = {"Ca\sounds\Weapons\rifles\M24_single3", 10, 1, 1800};
+	reloadMagazineSound[] = {"Ca\sounds\Weapons\rifles\M1014-reload", 0.01, 1, 20};
+	descriptionShort = "Caliber: 7x64 mm <BR/>Rounds: 5 <BR/>Used in: CZ 550";
+	
+	class ItemActions {
+		class ReloadMag {
+			text="Add 20 rounds to box";
+			script="spawn player_reloadMag;";
+			use[]= {
+				"5x_22_LR_17_HMR",
+				"5x_22_LR_17_HMR",
+				"5x_22_LR_17_HMR",
+				"5x_22_LR_17_HMR"
+			};
+			output[]= {
+				"CZ550_Ammo_Box"
+			};
+		};
+	};
+};
