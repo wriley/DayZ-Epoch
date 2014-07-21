@@ -217,7 +217,7 @@ class ItemWoodWall: CA_Magazine {
 	displayName = "Wood Wall";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall constucted out of plywood and lumber.";
+	descriptionShort = "Wall constructed out of plywood and lumber.";
 	weight = 25;
 	class ItemActions {
 		class Build {
@@ -259,7 +259,7 @@ class ItemWoodWallThird: CA_Magazine {
 	displayName = "Wood Wall 1/3";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Third wall constucted out of plywood and lumber.";
+	descriptionShort = "Third wall constructed out of plywood and lumber.";
 	weight = 7;
 	class ItemActions {
 		class Build {
@@ -285,7 +285,7 @@ class ItemWoodWallWindow: CA_Magazine {
 	displayName = "Wall w/ Window";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall with Window constucted out of plywood and lumber.";
+	descriptionShort = "Wall with Window constructed out of plywood and lumber.";
 	weight = 25;
 	class ItemActions {
 		class Build {
@@ -304,7 +304,7 @@ class ItemWoodWallDoor: CA_Magazine {
 	displayName = "Wall w/ Doorway";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall with doorway constucted out of plywood and lumber.";
+	descriptionShort = "Wall with doorway constructed out of plywood and lumber.";
 	weight = 25;
 	class ItemActions {
 		class Build {
@@ -330,7 +330,7 @@ class ItemWoodWallWithDoor: CA_Magazine {
 	displayName = "Wall w/ Door";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall with door constucted out of plywood and lumber.";
+	descriptionShort = "Wall with door constructed out of plywood and lumber.";
 	weight = 25;
 	class ItemActions {
 		class Build {
@@ -356,7 +356,7 @@ class ItemWoodWallWithDoorLocked: CA_Magazine {
 	displayName = "Wall w/ Door Locked";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall with door constucted out of plywood and lumber.";
+	descriptionShort = "Wall with door constructed out of plywood and lumber.";
 	weight = 30;
 	class ItemActions {
 		class Build {
@@ -375,7 +375,7 @@ class ItemWoodWallGarageDoor: CA_Magazine {
 	displayName = "Wood Garage Door";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Garage door constucted out of plywood and lumber.";
+	descriptionShort = "Garage door constructed out of plywood and lumber.";
 	weight = 25;
 	class ItemActions {
 		class Build {
@@ -420,7 +420,7 @@ class ItemWoodWallLg: CA_Magazine {
 	displayName = "Large Wood Wall";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Large wall constucted out of plywood and lumber.";
+	descriptionShort = "Large wall constructed out of plywood and lumber.";
 	weight = 25;
 	class ItemActions {
 		class Build {
@@ -462,7 +462,7 @@ class ItemWoodWallWindowLg: CA_Magazine {
 	displayName = "Large Wall w/ Window";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Large wall with doorway constucted out of plywood and lumber..";
+	descriptionShort = "Large wall with doorway constructed out of plywood and lumber..";
 	weight = 30;
 	class ItemActions {
 		class Build {
@@ -481,7 +481,7 @@ class ItemWoodWallDoorLg: CA_Magazine {
 	displayName = "Large Wall w/ Doorway";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Large wall with doorway constucted out of plywood and lumber.";
+	descriptionShort = "Large wall with doorway constructed out of plywood and lumber.";
 	weight = 30;
 	class ItemActions {
 		class Build {
@@ -507,7 +507,7 @@ class ItemWoodWallWithDoorLg: CA_Magazine {
 	displayName = "Large Wall w/ Door";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall with door constucted out of plywood and lumber.";
+	descriptionShort = "Wall with door constructed out of plywood and lumber.";
 	weight = 30;
 	class ItemActions {
 		class Build {
@@ -533,7 +533,7 @@ class ItemWoodWallWithDoorLgLocked: CA_Magazine {
 	displayName = "Large Wall w/ Door Locked";
 	model = "\z\addons\dayz_epoch\models\supply_crate.p3d";
 	picture = "\z\addons\dayz_epoch\pictures\equip_wooden_crate_ca.paa";
-	descriptionShort = "Wall with combination lock door constucted out of plywood and lumber.";
+	descriptionShort = "Wall with combination lock door constructed out of plywood and lumber.";
 	weight = 35;
 	class ItemActions {
 		class Build {
